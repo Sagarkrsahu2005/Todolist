@@ -2,7 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+h1{
+  font-size:xx-large;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+input{
+  border: 3px solid #000;
+  margin: 30px;
+  padding: 5px 13px;
+  border-radius: 10px;
+}
+button{
+  background-color: #000;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#storage{
+background-color: blueviolet;
+padding: 20px;
+/* height: 30vh;
+width: 100%; */
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +53,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
