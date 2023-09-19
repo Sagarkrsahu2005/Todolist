@@ -28,9 +28,13 @@ button{
 #storage{
 background-color: blueviolet;
 padding: 20px;
+}
+/* .Mainstore{
+  text-decoration: none;
+} */
 /* height: 30vh;
 width: 100%; */
-}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
